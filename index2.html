@@ -1,0 +1,64 @@
+<html>
+  <head>
+    <title>Flexbox tutorial</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      .menuTopo{
+          background-color: rgb(21, 21, 46);
+          height: 50px;
+          width: 100%;
+          border: 1px solid wheat;
+          border-radius: 15px;
+          overflow: hidden;
+          margin-bottom: 5px;
+          color: wheat;
+          display: flex;
+      }
+
+      .menuEsquerdo{
+          background-color: blue;
+          height: 80%;
+          width: 100px;
+      }
+
+      .menuTopo li{
+          margin-left: 30px;
+      }
+
+      
+      .footer{
+          background-color: rgb(21, 21, 46);
+          height: 50px;
+          width: 100%;
+          overflow: hidden;
+          margin-bottom: 55px;
+          color: wheat;
+          display: flex;
+          margin-bottom: -1px;
+      }
+
+    
+      
+    </style>
+  </head>
+  <body>
+    <div class="menuTopo">
+        <ul><li style="margin-left: 200px;">menu 1</li></ul>
+        <ul><li>menu 2</li></ul>
+        <ul><li>menu 3</li></ul>
+        <ul><li>menu 4</li></ul>
+    </div><!--menuEsquerdo -->
+    <div class="menuEsquerdo">
+
+    </div><!--menuEsquerdo -->
+
+    <div class="footer">
+
+    </div><!--footer -->
+    
+  </body>
+</html>
